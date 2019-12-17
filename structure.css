@@ -28,16 +28,17 @@ h5{
 
 /* information of the image styling can be found on https://www.w3schools.com/css/css3_images.asp */
 img {
-	line-height: 20px;
+	line-height: 10px;
 	margin-left: auto;
 	margin-right: auto;
-    width: 800px;
-    height: 800px;
-	opacity: 0.8;
+    width: 600px;
+    height: 600px;
+	opacity: 1.0;
 	height: auto;
+	color: white;
 }
 p {
-	color: grey;
+	color: white;
 }
 li{
     height: 300%;
@@ -55,11 +56,19 @@ table {
 ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	background-color: #1abc9c;
+	padding: 100px;
+	background-color: #0a2b51;
+	text-align: center;
 }
 li {
 	float: left;
+}
+a	{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
 }
 li a {
   display: block;
