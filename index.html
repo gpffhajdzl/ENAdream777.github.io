@@ -1,29 +1,50 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<link rel="stylesheet" href="structure.css"></link>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>E&A Website </title>
-</head>
+<!DOCTYPE html>
+<html>
 
-<div>
-    <img src="logo.png" alt="E&ALogo"></img>
-</div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="structure.css">
+
+</head>
 
 <body>
 
-<h2><p font-size:300%> E&A Education </p></h2>
+
+  <div class="hero">
+    <video autoplay muted loop id="myVideo">
+      <source src="Education.mp4" type="video/mp4">
+      <source src="./Notes.mp4" type="vidoe/mp4">
+      <source src="Reading.mp5" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
 
-<p style="color:white">Official Web-site for E&A education</p>
 
+    <div class="content">
+      <div class="text">
+        <h1>E&A</h1>
+        <h6>Education and Achievement<h6>
+            <h3>꿈의 대학을 위한 더 나은 방법</h3>
+      </div>
+      <button class="button" id="myBtn" onclick="about()">E&A에 대하여</button>
+      <p></p>
 
-<div id="contact">
-<ul style="color:white"><a href="mailto:enadream777@gmail.com">Contact</a></ul>
-</div>
+      <!--
+      <button class="button" id="myBtn" onclick="univTest()">지금 갈 수 있는 너의 대학은?</button>
+      <p></p>
+        -->
 
+      <button class="button" id="myBtn" onclick="successStory()">합격사례&후기</button>
+      <p></p>
+      <button class="button" id="myBtn" onclick="contact()">컨설팅 문의</button>
+    </div>
+
+  </div>
+  <!-- ToDo: think about other linked pagess -->
+
+  <script src="myscripts.js"></script>
 
 
 </body>
+
 </html>
